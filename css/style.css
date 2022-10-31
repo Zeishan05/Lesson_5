@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face { 
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"),
+	url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Medium.woff2") format("woff2"),
+	url("../fonts/Lato-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+header {
+	font-family:Lato;
+	font-weight: 900;
+	line-height: 4;
+	text-align: center;
+	font-size: 40px;
+}
+p {
+	font-family: Lato,serif;
+	font-weight: 500;
+	line-height: 1.5;
+	font-size: 20px;
+	margin:0px 50px 30px 50px;
+	text-align: justify;
+}
+h2 {
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 30px;
+	margin: 80px 0px 30px 50px;
+	color: blue;
+}
+li {
+	font-family: Lato,serif;
+	font-weight: 500;
+	line-height: 1.5;
+	font-size: 20px;
+	margin: 0px 0px 0px 70px;
+	list-style-type: disc;
+}
+ul {
+	margin: 0px 0px 30px 0px;
+}
+img {
+	margin: 10px 15px 2px 80px;
+}
+.img {
+	margin: 10px 0px 10px 225px;
+}
+.imgly {
+	margin: 10px 0px 10px 5px;
+}
+.imgly-2 {
+	margin: 10px 0px 10px 300px;
+}
+.imgly-3 {
+	margin: 10px 0px 10px 180px;
+}
+.imgly-4 {
+	margin: 50px 0px 10px 300px;
+}
+mark {
+	color:blue;
+	font-size: 25px;
+}
+span {
+	font-size: 20px;
+	font-family: Lato;
+	font-weight: 900;
+}
+.indent {
+	text-indent: 20px;
+}
+.block {
+	margin: -10px;
+}
+.under {
+	text-decoration: underline;
+	font-family: Lato,serif;
+	font-weight: 500;
+}
+.letter {
+	font-family: cursive;
+}
+.new {
+	text-align: center;
+}
+a.link {
+	text-decoration: underline;
+}
